@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "mail": "tania@gmail.com",
+      "name": "tania",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "mail": "galia@gmail.com",
+      "name": "galia",
+      "password": "123"
+    },
+    {
+      "name": "Tania",
+      "email": "tana@com",
+      "password": "123",
+      "id": 1598123173592
+    },
+    {
+      "name": "Olena",
+      "email": "olena@gmail",
+      "password": "123",
+      "id": 1598217156644
+    }
+  ]
+}
