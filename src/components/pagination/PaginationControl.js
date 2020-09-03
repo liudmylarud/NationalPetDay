@@ -12,7 +12,7 @@ const PaginationControl = ({totalPosts, setCurrentPage, currentPage}) => {
     useEffect(() => {
         let items = [];
 
-        for (let number = 1; number <= Math.ceil(totalPosts /5) ; number++) {
+        for (let number = 1; number <= Math.ceil(totalPosts /6) ; number++) {
             items.push(
                 <div key={number} onClick={() => setCurrentPage(number)}>
                     <Pagination.Item active={number === currentPage + 1}>
@@ -22,7 +22,7 @@ const PaginationControl = ({totalPosts, setCurrentPage, currentPage}) => {
             );
         }
         setPageItems(items);
-    }, [currentPage, totalPosts]);
+    }, [setCurrentPage, currentPage, totalPosts]);
 
     return (
         <>
@@ -32,11 +32,10 @@ const PaginationControl = ({totalPosts, setCurrentPage, currentPage}) => {
 };
 
 const mapStateToProps = (state, {isUserPosts}) => {
-    console.log('isUserPosts', isUserPosts);
     return {
     totalPosts: isUserPosts ? selectUserPosts(state).length: selectPosts(state).length,
     currentPage: currentPage(state),
-    currentPosts: currentPosts(state),
+    currentPosts: currentPosts(state)
 }};
 
 const mapDispatchToProps = (dispatch) => ({

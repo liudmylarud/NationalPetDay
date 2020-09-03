@@ -4,13 +4,17 @@ import {
   ADD_POST_REJECTED,
   DELETE_POST_FULFILLED,
   DELETE_POST_PENDING,
-  DELETE_POST_REJECTED, EDIT_POST_FULFILLED, EDIT_POST_PENDING, EDIT_POST_REJECTED,
+  DELETE_POST_REJECTED,
+  EDIT_POST_FULFILLED,
+  EDIT_POST_PENDING,
+  EDIT_POST_REJECTED,
   GET_POST_FULFILLED,
   GET_POST_PENDING,
   GET_POST_REJECTED,
   GET_POSTS_FULFILLED,
   GET_POSTS_PENDING,
-  GET_POSTS_REJECTED, SET_ACTIVE_PAGE
+  GET_POSTS_REJECTED,
+  SET_ACTIVE_PAGE,
 } from "../actionTypes/postsActionTypes";
 
 
@@ -19,7 +23,8 @@ const initialState = {
   post: {},
   loading: false,
   error: false,
-  currentPage: 1
+  currentPage: 1,
+
 };
 
 export default (state = initialState, action) => {

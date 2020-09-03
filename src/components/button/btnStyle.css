@@ -1,0 +1,46 @@
+button {
+  background: transparent;
+  border: none;
+}
+
+.pink {
+  display: inline;
+  height: 50px;
+  width: 186px;
+  font-size: 14px;
+  text-align: center;
+  transition: 0.5s;
+  background: linear-gradient(45deg, rgba(121, 0, 227, 0.12) 0%, rgba(172, 0, 230, 0.11) 25%, rgba(255, 0, 252, 0.12) 51%, rgba(255, 0, 142, 0.13) 100%);
+  color: black;
+}
+
+.pink:hover {
+  animation: moveBtn 6s infinite linear;
+  background: repeating-linear-gradient(45grad, rgba(255, 0, 142, 0.13) 25%, rgba(172, 0, 230, 0.31) 50%, rgba(255, 0, 252, 0.12) 75%, rgba(255, 0, 142, 0.13) 100%);
+}
+
+.green {
+  display: inline;
+  height: 50px;
+  width: 186px;
+  font-size: 14px;
+  text-align: center;
+  transition: 0.5s;
+  background: linear-gradient(45deg, rgba(0, 227, 151, 0.15) 0%, rgba(0, 255, 127, 0.15) 25%, rgba(20, 169, 1, 0.11) 51%, rgba(111, 255, 1, 0.14) 100%);
+}
+
+.green:hover {
+  animation: moveBtn 6s infinite linear;
+  background: repeating-linear-gradient(45grad, rgba(9, 227, 176, 0.56) 25%, rgba(0, 255, 127, 0.41) 50%, rgba(23, 255, 59, 0.25) 75%, rgba(9, 227, 176, 0.56) 100%);
+}
+
+@keyframes moveBtn {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
+/*# sourceMappingURL=btnStyle.css.map */

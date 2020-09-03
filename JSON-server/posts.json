@@ -1,166 +1,48 @@
 {
   "posts": [
     {
-      "id": 11,
-      "title": "Pioneering Edition",
-      "description": "As the largest Wikipedia edition, and because English is such a widely used language, the English Wikipedia draws many users and editors whose native language is not English. Such users may seek information from the English Wikipedia rather than the Wikipedia of their native language because the English Wikipedia tends to contain more information about general subjects. Successful collaborations have been developed between non-native English speakers who successfully add content to the English Wikipedia and native English speakers who act as copyeditors for them.[citation needed]"
+      "title": "On Living the Hard Way",
+      "description": "Self-discipline means living your life the hard way: resisting temptations and instant gratification, in\norder to receive bigger and better rewards in the future. It’s certainly easier to avoid all kinds of\ndiscomfort and indulge yourself whenever you want, but in the end, all that you get from that approach is\nfleeting pleasure now at the expense of your future, which otherwise could have been much better.\nConsider a weak-willed person who, when faced with a challenge, immediately opts out. How likely\nis this person to achieve anything substantial in life if their primary value is to feel comfortable? How is\nthis person going to manage a crisis that they must face? Even a relatively insignificant problem can\nbecome an insurmountable obstacle for a person who’s been living a sheltered life and always avoided\nwhat’s difficult or disagreeable.\nNow contrast that with a person who voluntarily makes his or her life harder. They seek out and\nwelcome challenges as opportunities to grow. Each self-imposed affliction strengthens them, so that fewer\nand fewer difficulties in life overwhelm them. Day by day, they immunize themselves against problems,\nprecisely because they seek them out. When life deals them an unexpected blow, they’re ready to handle it\nbecause — thanks to living their lives the hard way — they’re always ready for hardships.",
+      "date": "2020-09-02",
+      "readingTime": "00:41:18",
+      "id": 1598564476701,
+      "userID": "1598518337888",
+      "user_name": "Olena"
     },
     {
-      "id": 10,
-      "title": "English Wikipedia",
-      "description": "The English Wikipedia is the English-language edition of the free online encyclopedia Wikipedia. Founded on 15 January 2001, it is the first edition of Wikipedia and, as of April 2019, has the most articles of any of the editions.[2] As of May 2020, 11% of articles in all Wikipedias belong to the English-language edition. This share has gradually declined from more than 50 percent in 2003, due to the growth of Wikipedias in other languages.[3] As of 24 May 2020, there are 6,084,420 articles on the site,[4] having surpassed the 5 million mark on 1 November 2015.[5] In October 2015, the total volume of the compressed texts of the English Wikipedia's articles amounted to 11.5 gigabytes"
+      "title": "On Being a Human",
+      "description": "Humans have the capacity to act against their urges in exchange for a better future. Unfortunately,\nmany people live by the principle of “if it feels good, do it, and if it doesn’t, don’t do it.”\nCaving in to your temptations whenever you feel them emerge is like relinquishing your humanity, in\na way. As an intelligent human being, you have an ability — and I daresay an obligation — to make\ndecisions that are based on rational thinking, not on your instincts alone.\nStrive to be a better human and embrace your humanity by exercising your “willpower muscle,”\ninstead of succumbing to your most primal (and least helpful for your long-term goals) part of the brain.\nYour most primal instincts may provide temporary comfort, but seldom are good for the long term, except\nwhen there is a direct threat to your survival.",
+      "date": "2020-09-05",
+      "readingTime": "00:41:47",
+      "id": 1598564504073,
+      "userID": "1598518337888",
+      "user_name": "Olena"
     },
     {
-      "id": 1,
-      "title": "About Something",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
+      "title": "On Rising from the Ashes of Failure",
+      "description": "No matter how self-disciplined you are, there’s no escaping the fact that sometimes you’ll stumble.\nPerhaps you’ll eat a piece of a cake instead of a salad. Maybe you’ll skip a workout out of laziness. It’s\npossible that when your efforts result in a failure, you’ll lose the self-discipline to continue and revert\nback to your old undesirable habits.\nIt’s all par for the course, and the sooner you accept, it, the easier it will be to handle the setbacks\nonce they occur. However, don’t consider your failures a useless waste of time and energy; a failure can\noften present new opportunities or lead to important realizations.\nI failed to learn how to play tennis despite putting considerable amount of time, energy, and money\ninto it. However, this made me realize that I wanted to concentrate on rock climbing, and the failure with\ntennis cleared the way for dramatic improvements in my climbing performance.\nWhen discouraged, remember that all struggles present opportunities that, given enough time, you can\nconvert into successes or lessons that will aid you in other areas of life.",
+      "date": "2020-08-13",
+      "readingTime": "00:16:18",
+      "id": 1598821454364,
+      "userID": "1598517514229",
+      "user_name": "Tania"
     },
     {
-      "id": 2,
-      "title": "How Are You ?",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
+      "title": "On Rising from the Ashes of Failure",
+      "description": "No matter how self-disciplined you are, there’s no escaping the fact that sometimes you’ll stumble.\nPerhaps you’ll eat a piece of a cake instead of a salad. Maybe you’ll skip a workout out of laziness. It’s\npossible that when your efforts result in a failure, you’ll lose the self-discipline to continue and revert\nback to your old undesirable habits.\nIt’s all par for the course, and the sooner you accept, it, the easier it will be to handle the setbacks\nonce they occur. However, don’t consider your failures a useless waste of time and energy; a failure can\noften present new opportunities or lead to important realizations.\nI failed to learn how to play tennis despite putting considerable amount of time, energy, and money\ninto it. However, this made me realize that I wanted to concentrate on rock climbing, and the failure with\ntennis cleared the way for dramatic improvements in my climbing performance.\nWhen discouraged, remember that all struggles present opportunities that, given enough time, you can\nconvert into successes or lessons that will aid you in other areas of life.",
+      "date": "2020-08-13",
+      "readingTime": "00:16:18",
+      "id": 1598821454365,
+      "userID": "1598517514229",
+      "user_name": "Tania"
     },
     {
-      "id": 3,
-      "title": "It so funny",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
-    },
-    {
-      "id": 4,
-      "title": "Description must be here",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
-    },
-    {
-      "id": 5,
-      "title": "Title must be here",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
-    },
-    {
-      "id": 6,
-      "title": "React.js the best library",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
-    },
-    {
-      "id": 7,
-      "title": "Title",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
-    },
-    {
-      "id": 8,
-      "title": "Title",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
-    },
-    {
-      "id": 9,
-      "title": "Title",
-      "description": "We will build a small game during this tutorial. You might be tempted to skip it because you’re not building games — but give it a chance. The techniques you’ll learn in the tutorial are fundamental to building any React app, and mastering it will give you a deep understanding of React."
-    },
-    {
-      "title": "1",
-      "description": "1",
-      "id": 1598041129163
-    },
-    {
-      "title": "1",
-      "description": "1",
-      "id": 1598041131418
-    },
-    {
-      "title": "куеукеуке",
-      "description": "укеукеукнуку",
-      "id": 1598111013982
-    },
-    {
-      "title": "tttttttttttttt",
-      "description": "tttttttttttttttttttttttttttttttttttttttttt",
-      "id": 1598111044175
-    },
-    {
-      "title": "Tania",
-      "description": "stepanova",
-      "id": 1598111283887
-    },
-    {
-      "title": "wwwwwww",
-      "description": "wwww",
-      "id": 1598111304466
-    },
-    {
-      "title": "555555",
-      "description": "5555555555555",
-      "id": 1598111327044
-    },
-    {
-      "title": "user",
-      "description": "userde afa",
-      "id": 1598127649782
-    },
-    {
-      "title": "caknkarngle 2222222",
-      "description": "sgergwefer55555555555222",
-      "userID": "1598123173592",
-      "id": 1598189477526
-    },
-    {
-      "title": "new",
-      "description": "new",
-      "id": 1598200735801,
-      "userID": "1598123173592"
-    },
-    {
-      "title": "nwwqqqqqqq",
-      "description": "newnewnew",
-      "id": 1598200785077,
-      "userID": "1598123173592"
-    },
-    {
-      "title": "Flower",
-      "description": "flower",
-      "id": 1598201623689,
-      "userID": "1598123173592",
-      "user_name": "Unknown"
-    },
-    {
-      "title": "kjdgkjkjgrs",
-      "description": "grkmldvkm,m.dvs,. xv, df",
-      "id": 1598206125324,
-      "userID": "1598123173592",
-      "user_name": "Unknown"
-    },
-    {
-      "title": "lkenrglkwenrglwengwe",
-      "description": "1234567890poikujyhgtfredsfvbgnjmk,",
-      "id": 1598206147758,
-      "userID": "1598123173592",
-      "user_name": "Unknown"
-    },
-    {
-      "title": "nnrogwoerfwe",
-      "description": "12345678909876543234r5t6y78",
-      "id": 1598206224845,
-      "userID": "1598123173592",
-      "user_name": "Unknown"
-    },
-    {
-      "title": "sdfghj",
-      "description": "/.,kjmhngbfvdsazxscxvbnm",
-      "id": 1598207477504,
-      "userID": "1598123173592",
-      "user_name": "Unknown"
-    },
-    {
-      "title": "imfgsd",
-      "description": "imdgmdg",
-      "id": 1598214082467,
-      "userID": "1598123173592",
-      "user_name": "Unknown",
-      "image": "C:\\fakepath\\2.jpg"
-    },
-    {
-      "title": "tekeke234567",
-      "description": "566666666666666",
-      "id": 1598219545713,
-      "userID": "1598123173592",
+      "title": "On Rising from the Ashes of Failure",
+      "description": "No matter how self-disciplined you are, there’s no escaping the fact that sometimes you’ll stumble.\nPerhaps you’ll eat a piece of a cake instead of a salad. Maybe you’ll skip a workout out of laziness. It’s\npossible that when your efforts result in a failure, you’ll lose the self-discipline to continue and revert\nback to your old undesirable habits.\nIt’s all par for the course, and the sooner you accept, it, the easier it will be to handle the setbacks\nonce they occur. However, don’t consider your failures a useless waste of time and energy; a failure can\noften present new opportunities or lead to important realizations.\nI failed to learn how to play tennis despite putting considerable amount of time, energy, and money\ninto it. However, this made me realize that I wanted to concentrate on rock climbing, and the failure with\ntennis cleared the way for dramatic improvements in my climbing performance.\nWhen discouraged, remember that all struggles present opportunities that, given enough time, you can\nconvert into successes or lessons that will aid you in other areas of life.",
+      "date": "2020-08-13",
+      "readingTime": "00:16:18",
+      "id": 1598821454366,
+      "userID": "1598517514229",
       "user_name": "Tania"
     }
   ]

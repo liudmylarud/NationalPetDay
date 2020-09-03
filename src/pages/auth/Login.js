@@ -1,40 +1,60 @@
 import React, {useState} from 'react';
 import {connect} from 'react-redux';
-import {Form, Button} from 'react-bootstrap';
+import {Form} from 'react-bootstrap';
 import './/styles.css';
 import Header from "./components/Header";
-import FormInput from "./components/FormInput";
 import {loginUser} from "../../redux/actionCreators/usersActionCreators";
 import {useHistory} from "react-router";
+import Input from "../../components/input/Input";
+import ButtonU from "../../components/button/ButtonU";
+
 
 const Login = ({loginUser}) => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+
     const history = useHistory();
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        localStorage.setItem('email', email);
-        localStorage.setItem('password', password);
         loginUser({email, password});
         history.push('/');
     };
 
+
     return (
         <Form className='login-container' onSubmit={handleSubmit}>
-
-            <Header title='Sign in' />
-
-            <FormInput id='formBasicEmail' title='Email address' type='email' placeholder='Enter email' value={email} onChange={(e) => setEmail(e.target.value)} />
-            <FormInput id='formBasicPassword' title='Password' type='password' placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
-
-            <Button variant="primary" type="submit">
-                Submit
-            </Button>
+            <Header title='Sign in'/>
+            <div className='pb-3'>
+                <div>
+                    <Input
+                        controlId='formBasicEmail'
+                        label='Email address'
+                        type='email'
+                        placeholder='Enter email'
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+                </div>
+                <div>
+                    <Input
+                        controlId='formBasicPassword'
+                        label='Password'
+                        type='password'
+                        placeholder='Enter password'
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                    />
+                </div>
+            </div>
+            <div className='mt-3 text-center'>
+                <ButtonU clazz='pink' children='Submit' type='submit'/>
+            </div>
         </Form>
     );
 };
+
 
 const mapDispatchToProps = (dispatch) => (
     {

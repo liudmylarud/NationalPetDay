@@ -1,22 +1,29 @@
 import React, {useEffect} from "react";
-import ImgCarousel from "../../components/carousel/ImgCarousel.js";
 import PostsList from "../../components/post-list/PostsList";
 import {Container} from 'react-bootstrap';
-import {currentPosts, selectPosts} from "../../selectors/postsSelector";
-import {deletePostActionCreator, getPostsActionCreator} from "../../redux/actionCreators/postsActionCreators";
+import {currentPosts} from "../../selectors/postsSelector";
+import {getPostsActionCreator} from "../../redux/actionCreators/postsActionCreators";
 import {connect} from "react-redux";
 import PaginationControl from "../../components/pagination/PaginationControl";
+import CustomSpinner from "../../components/custom-spinner/CustomSpinner";
+import Empty from "../../components/empty-data/Empty";
 
 
-const HomePage = ({currentPosts, getPosts}) => {
+const HomePage = ({currentPosts, loading, getPosts}) => {
 
     useEffect(() => {
-        getPosts();
-    }, []);
+        getPosts()
+    }, [getPosts]);
+
+    if(loading){
+        return <CustomSpinner/>
+    }
+    if(!currentPosts.length){
+        return <Empty/>
+    }
 
     return (
         <Container className='d-flex flex-wrap '>
-            {/*<ImgCarousel/>*/}
             <div className='container'>
                 <PostsList posts={currentPosts}/>
                 <PaginationControl/>
@@ -25,12 +32,13 @@ const HomePage = ({currentPosts, getPosts}) => {
     );
 };
 const mapStateToProps = (state) => ({
-    currentPosts: currentPosts(state)
+    // currentPosts: [],
+    currentPosts: currentPosts(state),
+    loading: state.postReducer.loading,
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    getPosts: () => dispatch(getPostsActionCreator()),
-    deletePost: (id) => dispatch(deletePostActionCreator(id)),
+    getPosts: () => dispatch(getPostsActionCreator())
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(HomePage);

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Row, Col, Button} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import {Row, Col} from "react-bootstrap";
 import '../components/style-header.css'
 import {removeUserSession} from "../../../helpers/common";
 import {useHistory} from "react-router";
+import ButtonU from "../../../components/button/ButtonU";
 
 const HeaderUser = () => {
 
@@ -17,14 +17,17 @@ const HeaderUser = () => {
         <>
             <Row className='font-weight-bold pb-4 pt-4'>
                 <Col className=" title align-middle">My profile</Col>
-                <Link to={'/create-post'}>
-                    <Button variant="primary" type="button">
+                <a href={'/create-post'}>
+                    <ButtonU type='button'
+                             clazz='pink'>
                         Add post
-                    </Button>
-                </Link>
-                <Button variant="primary" type="button" className='ml-2' onClick={handleRemoveSession}>
-                   Log out
-                </Button>
+                    </ButtonU>
+                </a>
+                <ButtonU type="button"
+                         onClick={handleRemoveSession}
+                         clazz='green'>
+                    Log out
+                </ButtonU>
             </Row>
 
             <Row className='my-post bg-dark text-white align-center p-3'>

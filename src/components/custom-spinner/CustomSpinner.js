@@ -1,12 +1,14 @@
 import React from 'react';
-import { Spinner } from "react-bootstrap";
+import {Spinner} from "react-bootstrap";
 
 const CustomSpinner = () => {
-  return (
-    <Spinner animation="border" role="status">
-      <span className="sr-only">Loading...</span>
-    </Spinner>
-  );
+    return (
+        <div className='text-center justify-content-center'>
+            <Spinner animation="border" role="status">
+                <div className="sr-only">Loading...</div>
+            </Spinner>
+        </div>
+    );
 };
 
 export default CustomSpinner;

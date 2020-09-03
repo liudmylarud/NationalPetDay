@@ -1,0 +1,59 @@
+{
+  "gallery":[
+    {
+      "id": "1",
+      "box": "Life's easy when you live it the hard way... and hard if you try to live it the easy way. -Dave Kekich",
+      "clazz": "bg-red"
+    },
+    {
+      "id": "2",
+      "box": "Self-discipline without talent can often achieve astounding results, whereas talent without self-discipline inevitably dooms itself to failure. -Sydney J. Harris",
+      "clazz": "bg-green"
+    },
+    {
+      "id": "3",
+      "box": "In order to succeed, you must have a long-term focus. Most of the challenges in out lives come from a short-term focus. -Tony Robbins",
+      "clazz": "bg-blue"
+    },
+    {
+      "id": "4",
+      "box": "Knowledge has to be improved, challenged, and increased constantly, or it vanishes. —Peter Drucker",
+      "clazz": "bg-orange"
+    },
+    {
+      "id": "5",
+      "box": "Don’t wait for tomorrow to do something you can do today.—Spanish proverb",
+      "clazz": "bg-red"
+    },
+    {
+      "id": "6",
+      "box": "Life is an ongoing process of choosing between safety (out of fear and need for defense) and risk (for the sake of progress and growth): Make the growth choice a dozen times a day. —Abraham Maslow",
+      "clazz": "bg-green"
+    },
+    {
+      "id": "7",
+      "box": "What we obtain too cheap, we esteem too lightly. — Thomas Paine",
+      "clazz": "bg-pink"
+    },
+    {
+      "id": "8",
+      "box": "I hope I shall possess firmness and virtue enough to maintain what I consider the most enviable of all titles, the character of an honest man. —George Washington",
+      "clazz": "bg-yellow"
+    },
+    {
+      "id": "9",
+      "box": "It is easier to resist at the beginning than at the end. —Leonardo da Vinci",
+      "clazz": "bg-blue"
+    },
+    {
+      "id": "10",
+      "box": "I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. Just figure out what’s next. —Steve Jobs",
+      "clazz": "bg-orange"
+    },
+    {
+      "id": "11",
+      "box": "You have to decide what your highest priorities are and have the courage — pleasantly, smilingly, non-apologetically — to say “no” to other things. And the way to do that is by having a bigger “yes” burning inside. —Stephen Covey",
+      "clazz": "bg-red"
+    }
+  ]
+}

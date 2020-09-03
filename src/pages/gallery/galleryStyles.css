@@ -1,0 +1,65 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+.flex-container .red {
+  background: linear-gradient(45deg, rgba(0, 16, 255, 0.18) 50%, rgba(39, 255, 0, 0.16) 100%);
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.flex-container .green {
+  background: linear-gradient(45deg, rgba(57, 255, 85, 0.45) 50%, rgba(53, 255, 61, 0.35) 100%);
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.flex-container .blue {
+  background: linear-gradient(45deg, rgba(55, 78, 255, 0.35) 50%, rgba(80, 50, 255, 0.43) 100%);
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.flex-container .yellow {
+  background: linear-gradient(45deg, rgba(228, 255, 60, 0.38) 50%, rgba(255, 241, 23, 0.63) 100%);
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.flex-container .orange {
+  background: linear-gradient(45deg, rgba(255, 94, 40, 0.75) 50%, rgba(255, 150, 100, 0.7) 100%);
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+}
+
+/*# sourceMappingURL=galleryStyles.css.map */

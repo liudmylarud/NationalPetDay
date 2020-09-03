@@ -1,0 +1,55 @@
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: center;
+}
+@mixin setBackground ($color1, $color2) {
+  background: linear-gradient(45deg, $color1 50%, $color2 100%);
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+
+}
+
+.flex-container .red {
+  @include setBackground(rgba(0, 16, 255, 0.18), rgba(39, 255, 0, 0.16));
+  //flex: 25%;
+  ///*max-width: 25%;*/
+  //padding: 0 4px;
+  //width: 25%;
+  //margin: 10px;
+  //text-align: center;
+  //line-height: 75px;
+}
+
+.flex-container .green {
+  @include setBackground(rgba(57, 255, 85, 0.45), rgba(53, 255, 61, 0.35));
+}
+.flex-container .blue {
+  @include setBackground(rgba(55, 78, 255, 0.35), rgba(80, 50, 255, 0.43));
+}
+.flex-container .yellow {
+  @include setBackground(rgba(228, 255, 60, 0.38), rgba(255, 241, 23, 0.63));
+}
+.flex-container .orange {
+  @include setBackground(rgba(255, 94, 40, 0.75), rgba(255, 150, 100, 0.7));
+}
+
+
+//.pink {
+//  @include setBackground(rgba(2, 255, 252, 0.27), rgba(87, 111, 230, 0.22), rgba(174, 89, 183, 0.28), rgba(255, 53, 127, 0.18));
+//}
+//
+//.green {
+//  @include setBackground(rgba(21, 255, 80, 0.27), rgba(30, 230, 170, 0.22), rgba(0, 183, 173, 0.28), rgba(139, 255, 169, 0.18));
+//}
+//.orange {
+//  @include setBackground(rgba(241, 255, 7, 0.27), rgba(230, 223, 123, 0.22), rgba(183, 144, 2, 0.28), rgba(255, 241, 0, 0.18));
+//}

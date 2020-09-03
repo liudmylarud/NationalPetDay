@@ -12,15 +12,16 @@ export const loginApi = async (url, body) => {
         .then(res => res.data)
         .then(res => res)
         .catch(err => err);
-    console.log('users', users);
     const user = users.find(({email}) => email === body.email);
-    if (!user) {
+    if(!user) {
         removeUserSession();
-        return 'invalid data. wrong name or password'
+        return null;
+    }else{
+        localStorage.setItem('id', user.id);
+        localStorage.setItem('username', user.name);
+        return user;
     }
-    localStorage.setItem('id', user.id);
-    localStorage.setItem('username', user.name);
-    return user;
+
 };
 
 export const post = (ulr, body) => {

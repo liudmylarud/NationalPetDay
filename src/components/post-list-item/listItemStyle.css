@@ -1,0 +1,101 @@
+.post-list{
+    display:grid;
+}
+
+.dws-wrapper{
+    /*padding: 10px;*/
+    width: 550px;
+    height: 500px;
+    /*margin: 50px auto;*/
+    position: relative;
+    border: solid 5px rgba(255, 255, 255, 0.8);
+    background: linear-gradient(20deg, rgba(0, 16, 255, 0.18), rgba(39, 255, 0, 0.16));
+    overflow: hidden;
+}
+
+.dws-wrapper .in-box{
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    padding: 7%;
+}
+.dws-text{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    opacity: 0;
+    z-index: 100;
+    transition: .5s ease;
+}
+
+.dws-wrapper a:before,
+.dws-wrapper a:after{
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 220%;
+    transition: .5s ease-in-out;
+    mix-blend-mode: darken;
+}
+.dws-wrapper a:before{
+    right: 0;
+    bottom: -100%;
+    background: rgba(0, 16, 255, 0.38);
+    transform: skew(-45deg) translateX(100%);
+}
+.dws-wrapper a:after{
+    left: 0;
+    top: -100%;
+    background: rgba(252, 7, 255, 0.36);
+    transform: skew(135deg) translateX(-100%);
+}
+.dws-wrapper:hover a:before{
+    transform: skew(-45deg) translateX(0%);
+}
+.dws-wrapper:hover a:after{
+    transform: skew(135deg) translateX(0%);
+}
+.dws-wrapper:hover .dws-text{
+    opacity: 1;
+}
+
+
+/**************/
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.item1 {
+    grid-column: 1/ span 3;
+    grid-row: 1 ;
+    padding: 15px 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.item2 {
+    grid-column: 4/ span 1;
+    grid-row: 1 ;
+    padding: 15px 10px;
+    text-align: right;
+}
+
+.item3 {
+    grid-column: 1/ span 2;
+    grid-row: 2;
+}
+
+.item4 {
+    grid-column: 4/ span 1;
+    grid-row: 2;
+}
+
+.item5 {
+    grid-column: 1/ span 4;
+    grid-row: 3;
+    font-size: 18px;
+}
+

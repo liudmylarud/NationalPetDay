@@ -1,10 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import {Card, Container, Col, Row, Button} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 
 import CustomSpinner from "../custom-spinner/CustomSpinner";
 
-const PostListItem = ({posts, deletePost}) => {
+import './listItemStyle.css';
+
+const PostListItem = ({posts}) => {
 
     if (!posts) return (
         <div>
@@ -13,44 +15,55 @@ const PostListItem = ({posts, deletePost}) => {
     );
 
     return (
-        <>
+        <div className='row'>
             {
-                posts.map(({id, title, description, user_name}) => {
+                posts.map(({id, title, description, user_name, date, readingTime}) => {
                     return (
 
-                        <Card
-                            bg={'dark'}
-                            key={id}
-                            text={'white'}
-                            className="d-block mr-auto ml-auto mb-2 mt-2"
-                        >
-                            <Card.Header>Author - {user_name}</Card.Header>
-                            <Card.Body>
-                                <Card.Title>{title}</Card.Title>
-                                <Card.Text>
-                                    {description.length > 200 ? `${description.substring(0, 100)}...` : description}
-                                </Card.Text>
-                                <Container>
-                                    <Col className='text-center'>
+                            <div className="dws-wrapper col col-lg-12 col-md-12 col-sm-12" key={id}>
+                                <div className='box'>
+                                    <div className='in-box'>
+                                        <div className='text-center item1'>{
+                                            title.length > 50 ? `${title.substring(0, 50)}...`: title
+                                        }</div>
+                                        <div className='item2'>{user_name}</div>
+                                        <div className='item3'>{date}</div>
+                                        <div className='item4'>Time to read {readingTime}</div>
+                                        <div className='ml-2 mr-2 item5'>{
+                                            description.length > 300 ? `${description.substring(0, 300)}...`: description}
+                                        </div>
+
+                                    </div>
+                                    <div className="dws-text">
                                         <Link to={`/post-detail/${id}`}>
                                             <Button variant="dark">post detail...</Button>
                                         </Link>
-                                    </Col>
-                                    <Row>
-                                        <Link to={`/edit-post/${id}`}>
-                                            <Button variant="dark"> edit post</Button>
-                                        </Link>
-                                        <Button variant="dark" onClick={() => deletePost(id)}>Delete</Button>
-                                    </Row>
-                                </Container>
-                            </Card.Body>
-                        </Card>
+                                    </div>
+                                </div>
+                            </div>
 
                     );
                 })
             }
-        </>
+        </div>
     );
 };
 
 export default PostListItem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
