@@ -4,6 +4,7 @@ import {getGalleryActionCreator} from "../../redux/actionCreators/galleryActionC
 import './styleGallery.css'
 import CustomSpinner from "../../components/custom-spinner/CustomSpinner";
 import Empty from "../../components/empty-data/Empty";
+import ImgCarousel from "../../components/carousel/ImgCarousel";
 
 const Gallery = ({boxes, getGallery, loading}) => {
 
@@ -22,6 +23,7 @@ const Gallery = ({boxes, getGallery, loading}) => {
 
     return (
         <div>
+            <ImgCarousel/>
             <div className="flex-container">
                 {
                     boxes.map(({box, id, clazz}) => {

@@ -1,6 +1,7 @@
 import React from "react";
 import {Carousel, Container} from 'react-bootstrap';
-
+import cactus2 from '../../images/cactus2.jfif';
+import cactus3 from '../../images/cactus3.jfif';
 
 const ImgCarousel = () => {
 
@@ -8,38 +9,38 @@ const ImgCarousel = () => {
         <Container className='container'>
 
             <Carousel>
-                <Carousel.Item interval={500}>
+                <Carousel.Item interval={300}>
                     <img
                         className="d-block w-100"
-                        src="https://99px.ru/sstorage/53/2015/01/tmb_119927_3984.jpg"
+                        src={cactus2}
                         alt="First slide"
                     />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
+                    {/*<Carousel.Caption>*/}
+                    {/*    <h3>title</h3>*/}
+                    {/*    <p>Some text</p>*/}
+                    {/*</Carousel.Caption>*/}
                 </Carousel.Item>
-                <Carousel.Item interval={500}>
+                <Carousel.Item interval={300}>
                     <img
                         className="d-block w-100"
-                        src={'https://99px.ru/sstorage/53/2013/06/tmb_72365_8478.jpg'}
+                        src={'https://lh3.googleusercontent.com/proxy/uijlHoawtfHx32N1WdJu4Z3bJaK_ZMXj_Ol8-HwZANUgNZxtNmv82MJ9umvYr6ENJKuErEgYEvDPO--RRwILi28GPfNybmhN5RI1xEVb0-OOkPAPUBxBI4covxtXgKvJQm80jbwzeKh39_QtvLlUSCqjej7iFbvkuUFhdko7Lx3tglJIPvU3sYY9mHXe6XezFtll8xchM42XedzRzVYzC-uy'}
                         alt="Third slide"
                     />
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
+                    {/*<Carousel.Caption>*/}
+                    {/*    <h3>title</h3>*/}
+                    {/*    <p>Some text</p>*/}
+                    {/*</Carousel.Caption>*/}
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item interval={300}>
                     <img
                         className="d-block w-100"
-                        src={'https://image.freepik.com/free-photo/close-up-of-green-cactus-on-black-isolated_45463-467.jpg'}
+                        src={cactus3}
                         alt="Third slide"
                     />
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
+                    {/*<Carousel.Caption>*/}
+                    {/*    <h3>title</h3>*/}
+                    {/*    <p>Some text</p>*/}
+                    {/*</Carousel.Caption>*/}
                 </Carousel.Item>
             </Carousel>
         </Container>
