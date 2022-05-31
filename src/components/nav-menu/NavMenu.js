@@ -6,7 +6,7 @@ import Input from "../input/Input";
 import {searchPost} from "../../redux/actionCreators/searchActionCreator";
 import {connect} from 'react-redux';
 import './navmenuStyles.css';
-import logo from '../../images/cactus.jpg'
+import logo from '../../images/logo.png'
 import {NavLink} from "react-router-dom";
 import {selectUserPosts} from "../../selectors/postsSelector";
 import {getPostsActionCreator} from "../../redux/actionCreators/postsActionCreators";
@@ -17,12 +17,11 @@ const NavMenu = ({searched, getSearchPost, countPost, getPosts}) => {
         getPosts()
     }, [getPosts]);
 
-
     return (
         <Navbar collapseOnSelect expand="lg" bg="light">
             <Navbar.Brand as={NavLink} exact to="/">
                 <div className='d-flex align-items-center'>
-                    <div className='d-flex align-items-center'>Cactus</div>
+                    <div id='Name' className='d-flex align-items-center'>National Pet Day</div>
                     <div>
                         <img src={logo} alt='logo' height='100px' />
                     </div>
@@ -34,13 +33,13 @@ const NavMenu = ({searched, getSearchPost, countPost, getPosts}) => {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <div className='container'>
                 <Nav className="mr-auto">
-                    <Nav.Link as={NavLink} exact to="/">Home</Nav.Link>
-                    <NavDropdown title="My Page" id="collasible-nav-dropdown1">
+                    <Nav.Link as={NavLink} exact to="/">We read</Nav.Link>
+                    <NavDropdown title="We share" id="collasible-nav-dropdown1">
                         <NavDropdown.Item as={NavLink} to="/my-page">My Page</NavDropdown.Item>
-                        <NavDropdown.Item href="/create-post">Add Post</NavDropdown.Item>
+                        <NavDropdown.Item href="/create-post">Share Post</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link as={NavLink} to="/gallery">Gallery</Nav.Link>
-                    <Form className='pl-5'>
+                    <Nav.Link as={NavLink} to="/gallery">We help</Nav.Link>
+                    <Form id="searchBar" className='pl-5'>
                         <Input
                             type="search"
                             value={searched}
@@ -48,7 +47,7 @@ const NavMenu = ({searched, getSearchPost, countPost, getPosts}) => {
                             placeholder="search posts ..."
                         />
                     </Form>
-                    <Nav.Link as={NavLink} to="/about">About</Nav.Link>
+                    <Nav.Link id="AbountName" as={NavLink} to="/about">About Us</Nav.Link>
                 </Nav>
                 <Nav>
                     {

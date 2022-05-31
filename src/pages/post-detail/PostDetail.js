@@ -64,7 +64,7 @@ const PostDetail = ({post, postId, getPost, deletePost}) => {
 
                     </div>
                     <div className='row'>
-                        <div className='col col-12 pb-5 text-justify'>{post.description}</div>
+                        <div id='postText' className='col col-12 pb-5 text-justify'>{post.description}</div>
                     </div>
                 </div>
                 <div>

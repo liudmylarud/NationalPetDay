@@ -31,7 +31,7 @@ const HeaderUser = () => {
             </Row>
 
             <Row className='my-post bg-dark text-white align-center p-3'>
-                <u> All my post </u>
+                <u> All my posts </u>
             </Row>
 
         </>

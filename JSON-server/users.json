@@ -1,34 +1,22 @@
 {
   "users": [
     {
-      "name": "Tania",
-      "email": "tana@com",
-      "password": "123",
-      "id": 1598517514229
+      "name": "Liuda",
+      "email": "egorovna444@gmail.com",
+      "password": "persik01",
+      "id": 1652026133670
     },
     {
-      "name": "Olga",
-      "email": "olga@gmail.com",
-      "password": "123",
-      "id": 1598517614382
+      "name": "John",
+      "email": "john@gmail.com",
+      "password": "persik01",
+      "id": 1652539020673
     },
     {
-      "name": "Olena",
-      "email": "olena@gmail",
-      "password": "123",
-      "id": 1598518337888
-    },
-    {
-      "name": "Max",
-      "email": "max@com",
-      "password": "123",
-      "id": 1598809019869
-    },
-    {
-      "name": "Tolia",
-      "email": "tol@com",
-      "password": "123",
-      "id": 1598819350407
+      "name": "Amanda",
+      "email": "amanda@gmail.com",
+      "password": "persik01",
+      "id": 1652539779131
     }
   ]
 }

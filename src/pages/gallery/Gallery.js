@@ -5,6 +5,7 @@ import './styleGallery.css'
 import CustomSpinner from "../../components/custom-spinner/CustomSpinner";
 import Empty from "../../components/empty-data/Empty";
 import ImgCarousel from "../../components/carousel/ImgCarousel";
+import {Button} from "react-bootstrap";
 
 const Gallery = ({boxes, getGallery, loading}) => {
 
@@ -26,12 +27,16 @@ const Gallery = ({boxes, getGallery, loading}) => {
             <ImgCarousel/>
             <div className="flex-container">
                 {
-                    boxes.map(({box, id, clazz}) => {
+                    boxes.map(({box, id, clazz, donate_url }) => {
                         return (
                             <div className={`image ${clazz}`} key={id}>
-                                <div>{box.toUpperCase()}</div>
+                                {box.toUpperCase()}
+                                <div className="dws-container">
+                                    <div className="dws-button">
+                                        <Button className="mt-5" onClick={(e)=> window.location = donate_url} variant="dark">DONATE</Button>
+                                    </div>
+                                </div>
                             </div>
-
                         )
                     })
                 }

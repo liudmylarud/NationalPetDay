@@ -1,19 +1,39 @@
 .about{
     display: block;
 }
-
 .about_container{
     display: block;
     position: relative;
     margin-top: 1rem;
+    overflow: hidden;
 }
 .about_container-image{
     display: block;
     position: relative;
-    left: 15%;
-
+    left: 14%;
 }
+
+.about_container-image1{
+    display: block;
+    position: relative;
+    left: 12%;
+    margin-bottom: 30px;
+}
+
+#dogPhoto{
+    margin-top: 35px;
+}
+
+#catPhoto{
+    margin-top: -55px;
+}
+
 .about_container-image img{
+    outline-style: double;
+    outline-color: rgba(87, 43, 8, 0.58);
+}
+
+.about_container-image1 img{
     outline-style: double;
     outline-color: rgba(87, 43, 8, 0.58);
 }

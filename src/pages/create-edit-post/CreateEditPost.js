@@ -103,7 +103,7 @@ const CreateEditPost = ({addPost, editPost, postId, getPost, post}) => {
                             cols={40}
                         />
                     </div>
-                    <div className='col-lg-5'>
+                    <div className='col-lg-5 mt-3'>
                         <div>
                             <Input
                                 controlId='forDate'

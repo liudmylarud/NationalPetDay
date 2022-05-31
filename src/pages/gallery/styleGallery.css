@@ -6,7 +6,17 @@
     padding: 0 4px;
     justify-content: center;
 }
-
+.carousell-container {
+    background: rgba(50,50,50, 0.5);
+}
+.carousel-item img {
+    height: 500px;
+}
+.carousel-item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .flex-container .image {
     /*background: linear-gradient(20deg, rgba(0, 16, 255, 0.18), rgba(39, 255, 0, 0.16));*/
     flex: 25%;
@@ -20,6 +30,7 @@
 
 .flex-container .bg-red {
     background: linear-gradient(-45deg, rgba(193, 33, 0, 0.25), rgba(215, 0, 134, 0.14));
+    /*background-image: url(../../images/ocean.jpg);*/
 }
 
 .flex-container .bg-green {
@@ -40,4 +51,52 @@
 
 .flex-container .bg-pink {
     background: linear-gradient(20deg, rgba(255, 4, 240, 0.3), rgba(255, 18, 158, 0.31));
+}
+.image {
+    overflow: hidden;
+}
+.dws-button{
+    z-index: 100;
+    opacity: 0;
+    transition: .5s ease;
+    position: relative;
+    bottom: 10%
+}
+
+.dws-button button:before,
+.dws-button button:after{
+    content: '';
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    transition: .5s ease-in-out;
+    mix-blend-mode: darken;
+}
+.dws-button button:before{
+    bottom: -10px;
+    right: -25%;
+    background: rgba(186,186,186, 0.69);
+    transform: skew(-45deg) translateX(100%);
+}
+.dws-button button:after{
+    bottom: 18px;
+    left: -25%;
+    background: rgba(242,128,170, 0.69);
+    transform: skew(135deg) translateX(-100%);
+}
+.dws-button:hover button:before{
+    transform: skew(-45deg) translateX(0%);
+}
+.dws-button:hover button:after{
+    transform: skew(135deg) translateX(0%);
+}
+.dws-container:hover .dws-button{
+    opacity: 1;
+}
+
+.image {
+    position: relative;
+    white-space: pre-line;
+    z-index: 2;
 }

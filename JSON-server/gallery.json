@@ -2,58 +2,69 @@
   "gallery":[
     {
       "id": "1",
-      "box": "Life's easy when you live it the hard way... and hard if you try to live it the easy way. -Dave Kekich",
-      "clazz": "bg-red"
+      "box": "THE ANIMAL FUND (TAF)\nThey focus on protecting the ocean and saving dolphins and whales from pollution, overfishing and maltreatment.",
+      "clazz": "bg-red",
+      "donate_url": "https://theanimalfund.net/en/get-involved/donation/"
     },
     {
       "id": "2",
-      "box": "Self-discipline without talent can often achieve astounding results, whereas talent without self-discipline inevitably dooms itself to failure. -Sydney J. Harris",
-      "clazz": "bg-green"
+      "box": "Humane Tomorrow\nThey have give hope to thousands of homeless, abused, and unwanted animals by providing spay/neuter programs, adoption opportunities, and education to the public about animal welfare.",
+      "clazz": "bg-green",
+      "donate_url": "https://humanetomorrow.org/donate/"
     },
     {
       "id": "3",
-      "box": "In order to succeed, you must have a long-term focus. Most of the challenges in out lives come from a short-term focus. -Tony Robbins",
-      "clazz": "bg-blue"
+      "box": "Pet Emergency Fund\nIt has been offering financial support to pet owners who cannot afford emergency medical treatment for their pets.",
+      "clazz": "bg-blue",
+      "donate_url": "http://www.petemergencyfund.org/donate/"
     },
     {
       "id": "4",
-      "box": "Knowledge has to be improved, challenged, and increased constantly, or it vanishes. —Peter Drucker",
-      "clazz": "bg-orange"
+      "box": "The Companion Animal Fund\nIt was created to subsidize non-elective veterinary care for pets whose owners would otherwise be unable to afford it.",
+      "clazz": "bg-orange",
+      "donate_url": "https://www.michanimalhealthfoundation.org/donate"
     },
     {
       "id": "5",
-      "box": "Don’t wait for tomorrow to do something you can do today.—Spanish proverb",
-      "clazz": "bg-red"
+      "box": "PAW FUND\nThe idea behind Paw Fund is simple. They help people help their pets. And when everyone can provide basic care to their companion animals, everyone’s pets benefit.",
+      "clazz": "bg-red",
+      "donate_url": "https://pawfund.org/donate/"
     },
     {
       "id": "6",
-      "box": "Life is an ongoing process of choosing between safety (out of fear and need for defense) and risk (for the sake of progress and growth): Make the growth choice a dozen times a day. —Abraham Maslow",
-      "clazz": "bg-green"
+      "box": "The Pongo Fund\nIt is full-time charity focused on fighting animal hunger. Because hungry people have hungry pets.",
+      "clazz": "bg-green",
+      "donate_url": "https://www.thepongofund.org/contact/donation-page/"
     },
     {
       "id": "7",
-      "box": "What we obtain too cheap, we esteem too lightly. — Thomas Paine",
-      "clazz": "bg-pink"
+      "box": "Pet Adoption Fund\nIt is a private, an all breed, non-profit, no-kill dog and cat rescue organization and adoption center since 1983. The organization is staffed primarily by volunteers, and exists solely on donations.",
+      "clazz": "bg-pink",
+      "donate_url": "https://www.petadoptionfund.org/donate"
     },
     {
       "id": "8",
-      "box": "I hope I shall possess firmness and virtue enough to maintain what I consider the most enviable of all titles, the character of an honest man. —George Washington",
-      "clazz": "bg-yellow"
+      "box": "Another Day Fund\nIt was founded by three veterinary professionals who believe that every healthy, treatable animal deserves a chance at another day with their families.",
+      "clazz": "bg-yellow",
+      "donate_url": "https://www.anotherdayfund.com/get-involved"
     },
     {
       "id": "9",
-      "box": "It is easier to resist at the beginning than at the end. —Leonardo da Vinci",
-      "clazz": "bg-blue"
+      "box": "International Fund for Animal Welfare (IFAW)\nWith projects in more than 40 countries, they rescue individual animals, act locally to prevent animal cruelty, and campaign for the protection of wildlife and habitats.",
+      "clazz": "bg-blue",
+      "donate_url": "https://secure.ifaw.org/european-union/emergency-ukraine"
     },
     {
       "id": "10",
-      "box": "I think if you do something and it turns out pretty good, then you should go do something else wonderful, not dwell on it for too long. Just figure out what’s next. —Steve Jobs",
-      "clazz": "bg-orange"
+      "box": "Anna's Pet Care Fund\nIt is designed to provide financial assistance and resources to pet owners who are unable to pay for emergency veterinary care for their companion animals. Their goal is to fund the gap in funding that is keeping someone's pet from receiving urgent or emergency care.",
+      "clazz": "bg-orange",
+      "donate_url": "https://www.annaspetcarefund.org/donate-now"
     },
     {
       "id": "11",
-      "box": "You have to decide what your highest priorities are and have the courage — pleasantly, smilingly, non-apologetically — to say “no” to other things. And the way to do that is by having a bigger “yes” burning inside. —Stephen Covey",
-      "clazz": "bg-red"
+      "box": "Blue Cross Ukraine Pet Welfare Fund\nThey have a long history of helping animals in times of conflict. Today, they are providing funds to key animal welfare charities in Poland and Romania which we have been working with for a number of years, and which are providing frontline support to Ukrainian people and their pets.",
+      "clazz": "bg-red",
+      "donate_url": "https://donate.bluecross.org.uk/appeal/single-amount-donation-details.aspx?content=R22UKR&_ga=2.117065158.1143777774.1652467984-1816021560.1652467983"
     }
   ]
 }

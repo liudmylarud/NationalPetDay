@@ -14,9 +14,9 @@ const UserInfo = ({countPost}) => {
                     {name}
                 </div>
             </div>
-            <div className='d-flex'>
+            <div id="userInfoCount" className='d-flex'>
                 <u>
-                    {`Number of posts : ${countPost}`}
+                    {`Posts : ${countPost}`}
                 </u>
             </div>
         </div>

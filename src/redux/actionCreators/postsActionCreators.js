@@ -7,7 +7,7 @@ import {
     DELETE_POST, SET_ACTIVE_PAGE
 } from '../actionTypes/postsActionTypes';
 
-const url = 'http://localhost:3002/posts';
+const url = 'http://localhost:3001/posts';
 
 export const getPostsActionCreator = () => ({type: GET_POSTS, payload: get(`${url}`)});
 export const getPostActionCreator = (id) => ({type: GET_POST, payload: get(`${url}/${id}`)});

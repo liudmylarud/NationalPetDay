@@ -1,3 +1,7 @@
 .post-detail-title{
-    background: linear-gradient(20deg, rgba(0, 16, 255, 0.18), rgba(252, 7, 255, 0.16));
+    background: linear-gradient(20deg, rgba(255,246,241, 1), rgba(254,144,135, 1));
+}
+
+#postText {
+    white-space: pre-line;
 }

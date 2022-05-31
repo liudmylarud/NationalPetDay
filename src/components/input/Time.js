@@ -4,7 +4,7 @@ import {Form} from "react-bootstrap";
 const Time = ({controlId, step, min, max, type, label, onChange}) => {
     return (
         <Form.Group controlId={controlId}>
-            <Form.Label>{label}</Form.Label>
+            <Form.Label className="mt-3">{label}</Form.Label>
             <Form.Control
                 type={type}
                 step={step}
